@@ -1,0 +1,7 @@
+transformers
+huggingface-hub
+seaborn
+scipy
+statsmodels
+pingouin
+opencv-python
