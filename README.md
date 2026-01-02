@@ -4,6 +4,9 @@
 
 This project provides a neuron-level analysis to dissect how implicit gender bias is encoded and applied across all components of a pre-trained Vision Transformer (ViT). By identifying gender-sensitive neurons and using Attn-LRP, we trace relevance to two key intra-layer components—the raw activations (post-GELU) and the normalized outputs (post-LayerNorm)—under both normal and context-masked conditions.
 
+## Experiment Overview
+![Experiment Overview](experiment_overview.jpg)
+
 ## Reproducibility Details
 
 To ensure full reproducibility, we provide the key hyperparameters and environmental details for our experiments.
